@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16afc34f-6d66-46f1-ba1e-82007419004f" name="Changes" comment="third  commit">
+    <list default="true" id="16afc34f-6d66-46f1-ba1e-82007419004f" name="Changes" comment="4th  commit">
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/controlstructure/ForLoops.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/controlstructure/LoopsContinuous.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/controlstructure/WhileLoops.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/controlstructure/controlstructure.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/controlstructure/ternaryOperators.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/list/BasicList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/mapping/mapping.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/patternmatching/MatchNumbers.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/patternmatching/MixTypes.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/variables/package.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/variables/variables/Variables.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +26,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,17 +55,79 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.ForLoops">
+    <configuration name="BasicList" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.list.BasicList" />
       <module name="demoScala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wiley.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForLoops" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.controlstructure.ForLoops" />
+      <module name="demoScala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wiley.controlstructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoopsContinuous" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.controlstructure.LoopsContinuous" />
+      <module name="demoScala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wiley.controlstructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MixTypes" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.patternmatching.MixTypes" />
+      <module name="demoScala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wiley.patternmatching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mapping" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.mapping.mapping" />
+      <module name="demoScala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wiley.mapping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ForLoops" />
+        <item itemvalue="Application.BasicList" />
+        <item itemvalue="Application.mapping" />
+        <item itemvalue="Application.MixTypes" />
+        <item itemvalue="Application.LoopsContinuous" />
       </list>
     </recent_temporary>
   </component>
@@ -80,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664878526401</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4th  commit">
+      <created>1664880232458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664880232458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +186,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="second  commit" />
     <MESSAGE value="third  commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third  commit" />
+    <MESSAGE value="4th  commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="4th  commit" />
   </component>
 </project>
