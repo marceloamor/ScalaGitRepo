@@ -4,20 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16afc34f-6d66-46f1-ba1e-82007419004f" name="Changes" comment="4th  commit">
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/controlstructure/ForLoops.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/controlstructure/LoopsContinuous.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/controlstructure/WhileLoops.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/controlstructure/controlstructure.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/controlstructure/ternaryOperators.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/list/BasicList.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/mapping/mapping.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/patternmatching/MatchNumbers.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/patternmatching/MixTypes.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/variables/package.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/variables/variables/Variables.scala" afterDir="false" />
+    <list default="true" id="16afc34f-6d66-46f1-ba1e-82007419004f" name="Changes" comment="1st full day of Scala  commit, includes control structure, types, loops, mapping, basic list manipulation, with a few edits">
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/ScalaBreak.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/ScalaFunctions/DefaultValFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/ScalaFunctions/RecursionPractice.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/ScalaFunctions/functionCall.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/datatypespractice/tempPractice.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/AnonymousFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/HigherOrderPractice.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/MultilineExpression.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/NestedFunctions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/ScalaComposition.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/ScalaCurryingFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/ScalaCuryingFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/VariableLengthParameter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/operators/OperatorsPractice.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +57,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ForLoops">
-    <configuration name="BasicList" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiley.list.BasicList" />
+  <component name="RunManager" selected="Application.tempPractice">
+    <configuration name="MultilineExpression" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.higherOrderFunctions.MultilineExpression" />
       <module name="demoScala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiley.list.*" />
+          <option name="PATTERN" value="com.wiley.higherOrderFunctions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoops" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiley.controlstructure.ForLoops" />
+    <configuration name="NestedFunctions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.higherOrderFunctions.NestedFunctions" />
       <module name="demoScala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiley.controlstructure.*" />
+          <option name="PATTERN" value="com.wiley.higherOrderFunctions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopsContinuous" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiley.controlstructure.LoopsContinuous" />
+    <configuration name="RecursionPractice" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.ScalaFunctions.RecursionPractice" />
       <module name="demoScala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiley.controlstructure.*" />
+          <option name="PATTERN" value="com.wiley.ScalaFunctions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MixTypes" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiley.patternmatching.MixTypes" />
+    <configuration name="VariableLengthParameter" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.higherOrderFunctions.VariableLengthParameter" />
       <module name="demoScala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiley.patternmatching.*" />
+          <option name="PATTERN" value="com.wiley.higherOrderFunctions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mapping" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiley.mapping.mapping" />
+    <configuration name="tempPractice" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.datatypespractice.tempPractice" />
       <module name="demoScala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiley.mapping.*" />
+          <option name="PATTERN" value="com.wiley.datatypespractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ForLoops" />
-        <item itemvalue="Application.BasicList" />
-        <item itemvalue="Application.mapping" />
-        <item itemvalue="Application.MixTypes" />
-        <item itemvalue="Application.LoopsContinuous" />
+        <item itemvalue="Application.tempPractice" />
+        <item itemvalue="Application.VariableLengthParameter" />
+        <item itemvalue="Application.NestedFunctions" />
+        <item itemvalue="Application.RecursionPractice" />
+        <item itemvalue="Application.MultilineExpression" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664880232458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1st full day of Scala  commit, includes control structure, types, loops, mapping, basic list manipulation">
+      <created>1664897667293</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664897667293</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1st full day of Scala  commit, includes control structure, types, loops, mapping, basic list manipulation, with a few edits">
+      <created>1664897787461</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664897787461</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +203,8 @@
     <MESSAGE value="second  commit" />
     <MESSAGE value="third  commit" />
     <MESSAGE value="4th  commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th  commit" />
+    <MESSAGE value="1st full day of Scala  commit, includes control structure, types, loops, mapping, basic list manipulation" />
+    <MESSAGE value="1st full day of Scala  commit, includes control structure, types, loops, mapping, basic list manipulation, with a few edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st full day of Scala  commit, includes control structure, types, loops, mapping, basic list manipulation, with a few edits" />
   </component>
 </project>
