@@ -1,7 +1,7 @@
 # ScalaGitRepo
 
 
-Today's Concepts
+1st Day's Concepts
 1) IntelliJ Installation and Usage
     1) Installation of IDE and plugins 
     2) Connection to GitHub and commiting through the IDE
