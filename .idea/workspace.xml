@@ -4,22 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16afc34f-6d66-46f1-ba1e-82007419004f" name="Changes" comment="1st full day of Scala  commit, includes control structure, types, loops, mapping, basic list manipulation, with a few edits">
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/ScalaBreak.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/ScalaFunctions/DefaultValFunction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/ScalaFunctions/RecursionPractice.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/ScalaFunctions/functionCall.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/datatypespractice/tempPractice.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/AnonymousFunction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/HigherOrderPractice.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/MultilineExpression.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/NestedFunctions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/ScalaComposition.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/ScalaCurryingFunction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/ScalaCuryingFunction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/higherOrderFunctions/VariableLengthParameter.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiley/operators/OperatorsPractice.scala" afterDir="false" />
+    <list default="true" id="16afc34f-6d66-46f1-ba1e-82007419004f" name="Changes" comment="2nd day, before lunch, scala course">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/constructors/DefaultConstructor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/constructors/PrimaryConstructors.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/constructors/SecondaryConstructor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/constructors/ThisExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/inheritance/BasicsInheritance.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/methodOverloading/LazyEvaluation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/methodOverloading/mathsComputation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/objectoriented/Arithmetic.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/objectoriented/CompanionObject.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/objectoriented/ExecuteClass2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/objectoriented/MainCaseClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/objectoriented/Student.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/objectoriented/singleton.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/objectorientedpractice/StudentRecord.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/practiceproblems/miniassignment2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiley/practiceproblems/practice3.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wiley/datatypespractice/tempPractice.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wiley/practiceproblems/tempPractice.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,16 +58,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.tempPractice">
-    <configuration name="MultilineExpression" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiley.higherOrderFunctions.MultilineExpression" />
+  <component name="RunManager" selected="Application.practice3">
+    <configuration name="BasicsInheritance" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.inheritance.BasicsInheritance" />
       <module name="demoScala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiley.higherOrderFunctions.*" />
+          <option name="PATTERN" value="com.wiley.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedFunctions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiley.higherOrderFunctions.NestedFunctions" />
+    <configuration name="LazyEvaluation" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.methodOverloading.LazyEvaluation" />
       <module name="demoScala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiley.higherOrderFunctions.*" />
+          <option name="PATTERN" value="com.wiley.methodOverloading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionPractice" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiley.ScalaFunctions.RecursionPractice" />
+    <configuration name="Maintemp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.methodOverloading.Maintemp" />
       <module name="demoScala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiley.ScalaFunctions.*" />
+          <option name="PATTERN" value="com.wiley.methodOverloading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableLengthParameter" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiley.higherOrderFunctions.VariableLengthParameter" />
+    <configuration name="T" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.constructors.T" />
       <module name="demoScala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiley.higherOrderFunctions.*" />
+          <option name="PATTERN" value="com.wiley.constructors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tempPractice" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiley.datatypespractice.tempPractice" />
+    <configuration name="practice3" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiley.practiceproblems.practice3" />
       <module name="demoScala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiley.datatypespractice.*" />
+          <option name="PATTERN" value="com.wiley.practiceproblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.tempPractice" />
-        <item itemvalue="Application.VariableLengthParameter" />
-        <item itemvalue="Application.NestedFunctions" />
-        <item itemvalue="Application.RecursionPractice" />
-        <item itemvalue="Application.MultilineExpression" />
+        <item itemvalue="Application.practice3" />
+        <item itemvalue="Application.BasicsInheritance" />
+        <item itemvalue="Application.T" />
+        <item itemvalue="Application.LazyEvaluation" />
+        <item itemvalue="Application.Maintemp" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664897787461</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2nd day, before lunch, scala course">
+      <created>1664981316435</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664981316435</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +217,7 @@
     <MESSAGE value="4th  commit" />
     <MESSAGE value="1st full day of Scala  commit, includes control structure, types, loops, mapping, basic list manipulation" />
     <MESSAGE value="1st full day of Scala  commit, includes control structure, types, loops, mapping, basic list manipulation, with a few edits" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st full day of Scala  commit, includes control structure, types, loops, mapping, basic list manipulation, with a few edits" />
+    <MESSAGE value="2nd day, before lunch, scala course" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd day, before lunch, scala course" />
   </component>
 </project>

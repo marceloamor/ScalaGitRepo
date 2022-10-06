@@ -1,4 +1,4 @@
-package com.wiley.datatypespractice
+package com.wiley.practiceproblems
 
 object tempPractice extends App {
   var lowNum: Int = 100
@@ -26,6 +26,8 @@ object tempPractice extends App {
 
   var test1: String = "\fThis is a \ntest of \n THIS WILL ALL BE OMITTED\rwhether \\ we \"can\" write \t \'simple\' statements!$\b"
   println(test1)
+
+
 
 
 
