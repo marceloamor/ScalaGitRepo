@@ -7,18 +7,15 @@ class practiceArray1 {
   //var arr1 = new Array[String](30
   //another way with type declaration:
   //var arr2: Array[String]= new Array[String](30)
-
   def show(): Unit = {
     for (a<- arr){
       println(a)
     }
     println("print third elem: " + arr(2))
   }
-
 }
 
 object practice extends App {
-
   var a = new practiceArray1
   a.show()
 }
